@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+.env
+reports/*.html
+reports/*.json
+logs/
+targets/*.db

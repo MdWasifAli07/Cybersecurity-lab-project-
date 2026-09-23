@@ -1,0 +1,6 @@
+# Sensitive paths to probe for exposure.
+/.env
+/.git/config
+/admin
+/backup.zip
+/config.php

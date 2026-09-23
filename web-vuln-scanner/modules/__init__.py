@@ -1,0 +1,1 @@
+# Package marker. Leave empty — the registry auto-discovers modules here.

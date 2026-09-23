@@ -1,0 +1,19 @@
+scan:
+  timeout: 10
+  max_threads: 5
+  user_agent: "VulnScanner/1.0 (Educational)"
+  follow_redirects: true
+
+crawler:
+  max_depth: 3
+  max_pages: 100
+
+modules:
+  enabled:
+    - SQL Injection
+    - Cross-Site Scripting
+    - Security Misconfiguration
+
+reporting:
+  format: html
+  output_dir: reports/

